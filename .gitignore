@@ -1,0 +1,72 @@
+# ----------------------------
+# Node / JavaScript (Frontend)
+# ----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.env
+.env.local
+.env.*.local
+
+# ----------------------------
+# Python (Backend)
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg*
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+dist/
+pip-wheel-metadata/
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ----------------------------
+# VS Code
+# ----------------------------
+.vscode/
+.history/
+*.code-workspace
+
+# ----------------------------
+# Operating System files
+# ----------------------------
+# Windows
+Thumbs.db
+*.lnk
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ----------------------------
+# Temporary / Misc
+# ----------------------------
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.csv
+logs/
+*.sqlite
+*.db
